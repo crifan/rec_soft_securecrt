@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "rec_soft_securecrt" >
+<!ENTITY publish_date       "2015-05-22" >
+<!ENTITY release_version    "0.4.0" >
+
+<!ENTITY copyrith_year "2015" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book
+    version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:lang="zh_CN">
+<info>
+    <title>【crifan推荐】支持多种协议的串口开发工具：SecureCRT</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>crifan推荐</keyword>
+        <keyword>SecureCRT</keyword>
+        <keyword>SSH2</keyword>
+        <keyword>串口</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍了笔者crifan推荐，支持多种协议，比如串口，SSH2等的开发工具SecureCRT。</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>添加基本框架</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_securecrt_intro.xml" />
+<xi:include href="ch02_securecrt_function.xml" />
+<xi:include href="ch03_securecrt_faq.xml" />
+<xi:include href="reference.xml" />
+
+</book>

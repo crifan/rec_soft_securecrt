@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+<!-- <!ENTITY % crl_ent PUBLIC "crl.ent" 'null'>%crl_ent; -->
+
+<!-- <!ENTITY % crl_ent SYSTEM "crl.ent">%crl_ent; -->
+<!-- <!ENTITY % crl_ent SYSTEM "../../../config/entity/crl.ent">%crl_ent; -->
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+
+    xml:id="ch01_securecrt_intro">
+<title>SecureCRT简介</title>
+<abstract></abstract>
+
+<para>TOOD：整理帖子</para>
+<para><link xl:href="http://www.crifan.com/crifan_recommand_development_serial_tool_securecrt/">【crifan推荐】极佳的串口开发工具：SecureCRT</link></para>
+<para></para>
+<para></para>
+
+<para>SecureCRT是个开发工具，其支持很多种协议，比如串口，SSH等等。</para>
+<para>在软件开发期间，常常会用得到。</para>
+<para>比如：</para>
+<itemizedlist>
+    <listitem>用SecureCRT通过串口连接嵌入式开发板的串口，进行调试。</listitem>
+    <listitem>用SecureCRT通过SSH2连接远程Linux的主机，进行远程操作。</listitem>
+    <listitem>用SecureCRT通过zmodem传输文件到远程的Linux主机中。</listitem>
+</itemizedlist>
+<para></para>
+
+<sect1 xml:id="download_securecrt"><title>下载SecureCRT</title>
+    <para>TODO：<link xl:href="http://www.crifan.com/download_vandykesecurecrtx86v650380_with_crack_and_crack_ri_ri_instructions_for_use/">【下载】VanDyke.SecureCRT.x86.v6.5.0.380 附带破解注册机crack 和 注册机使用说明</link></para>
+    <para></para>
+    <para></para>
+</sect1>
+<para></para>
+
+</chapter>

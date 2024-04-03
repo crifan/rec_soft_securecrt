@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.crifan_rec_very_good_serial_tool_securecrt">
+  <bibliosource><link xl:href="http://www.crifan.com/crifan_recommand_development_serial_tool_securecrt/">【crifan推荐】极佳的串口开发工具：SecureCRT</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+</bibliography>

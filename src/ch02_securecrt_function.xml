@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+<!-- <!ENTITY % crl_ent PUBLIC "crl.ent" 'null'>%crl_ent; -->
+
+<!-- <!ENTITY % crl_ent SYSTEM "crl.ent">%crl_ent; -->
+<!-- <!ENTITY % crl_ent SYSTEM "../../../config/entity/crl.ent">%crl_ent; -->
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+
+    xml:id="ch02_securecrt_function">
+<title>SecureCRT的各种功能</title>
+<abstract></abstract>
+
+<para>此处介绍，SecureCRT的各种常见功能。</para>
+<para></para>
+
+<sect1 xml:id="function_serial"><title>SecureCRT功能介绍之serial串口</title>
+    <para>支持serial串口协议，用于连接串口，包括典型的嵌入式开发板上的串口，和其他设备的串口。</para>
+    <para>TODO：<link xl:href="http://www.crifan.com/restore_tq2440_board_hardware_rs232_connection/">【记录】恢复win7与ARM开发板TQ2440的串口连接</link></para>
+    <para>TODO：<link xl:href="http://www.crifan.com/continue_try_access_pcduino_via_ttl_serial_port/">【记录】继续尝试通过TTL串口去访问pcDuino</link></para>
+</sect1>
+
+<sect1 xml:id="function_modem"><title>SecureCRT功能介绍之modem</title>
+    <para>关于modem类的协议，比如xmodem，ymodem，zmodem协议，不熟悉的可以去看看：</para>
+    <para>TODO：<link xl:href="http://www.crifan.com/order_kermit_xmodem_xmodem-1k_ymodem_ymodem-g_ymodem-1k_zmodem/">【整理】Kermit Xmodem Xmodem-1K Ymodem Ymodem-G Ymodem-1K Zmodem</link></para>
+    <para>支持modem类的协议，比如Xmodem，zmodem等等，用于和远程互相传输文件用。</para>
+    <para>TODO：<link xl:href="http://www.crifan.com/solution_from_a_linux_server_efficiently_download_multiple_files__download_files_from_the_linux_server_to_the_windows_in_the_introduction_to_the_various_methods/">【解决】从Linux服务器上，高效地下载多个文件 + 从Linux服务器下载文件到windows中的各种方法简介</link></para>
+    <para></para>
+</sect1>
+
+<sect1 xml:id="function_ssh"><title>SecureCRT功能介绍之SSH</title>
+    <para>支持SSH2协议。可以用来连接远程开启了SSH协议支持的Linux服务器。</para>
+    <para></para>
+    <para>TODO：<link xl:href="http://www.crifan.com/try_to_use_network_ssh2_to_connect_pcduino/">【记录】尝试通过网络中的ssh2去连接pcDuino</link></para>
+    <para></para>
+    <para></para>
+    <para>比如后来就通过SecureCRT去以ssh方式连接远程的VPS主机：</para>
+    <para>TODO：<link xl:href="http://www.crifan.com/updoad_file_via_ssh_connected_linode_vps">【记录】用SecureCRT上传文件到通过ssh连接的Linode的VPS服务器</link></para>
+</sect1>
+
+<sect1 xml:id="function_log"><title>SecureCRT功能介绍之丰富的日志功能</title>
+    <para>对于多日志文件的支持</para>
+    <para>TODO：整理</para>
+    <para><link xl:href="http://www.crifan.com/securecrt_log_settings/">SecureCRT的日志设置</link></para>
+</sect1>
+
+</chapter>

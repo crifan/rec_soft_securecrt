@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+<!-- <!ENTITY % crl_ent PUBLIC "crl.ent" 'null'>%crl_ent; -->
+
+<!-- <!ENTITY % crl_ent SYSTEM "crl.ent">%crl_ent; -->
+<!-- <!ENTITY % crl_ent SYSTEM "../../../config/entity/crl.ent">%crl_ent; -->
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+
+    xml:id="ch03_securecrt_faq">
+<title>SecureCRT常见问题及解答</title>
+<abstract></abstract>
+
+<para>此处整理，在使用SecureCRT期间，比较常见的一些问题，以及如何解决。</para>
+<para></para>
+<para>TOOD：整理帖子</para>
+<para><link xl:href="http://www.crifan.com/records_securecrt_using_ymodem_file_transfer_half-way_dead_halt_-_ampgt_ymodem-1k_can_be_properly_transferred_but_will_die_after/">【记录】SecureCRT中用Ymodem传输文件，中途死掉Halt -> Ymodem-1K可以正常传输，但是完成后会死掉</link></para>
+<para><link xl:href="http://www.crifan.com/ubuntu_1010_installed_ssh__resolved_securecrt_in_chinese_garbled_display_problem__home__end_to_move_to_the_line__end_of_line__vi__vim_to_display_color_code/">【已解决】secureCRT中：中文乱码显示问题 + Home/End移动到行首/行尾 + vi/vim中显示彩色代码</link></para>
+<para></para>
+<para></para>
+
+
+<qandaset>
+    <qandaentry xml:id="qa.securecrt_serial_cannot_input">
+        <question>
+            <para>SecureCRT中串口无法输入</para>
+        </question>
+        <answer>
+            <para>TODO：待整理：</para>
+            <para><link xl:href="http://www.crifan.com/resolved_can_not_enter_under_the_serial_securecrt/">【已解决】secureCRT下的串口不能输入</link></para>
+            <para><link xl:href="http://www.crifan.com/resolved_keyboard-interactive_authentication_with_the_ssh2_server_failed/">【已解决】keyboard-interactive authentication with the ssh2 server failed</link></para>
+        </answer>
+    </qandaentry>
+    <qandaentry xml:id="qa.securecrt_messy_code_support_zh_cn">
+        <question>
+            <para>如何解决SecureCRT的中文乱码？</para>
+            <para>如何让SecureCRT显示中文？</para>
+            <para>如何去除SecureCRT显示出的乱码？</para>
+        </question>
+        <answer>
+            <para>TODO：待整理：</para>
+            <para><link xl:href="http://www.crifan.com/ubuntu_1010_installed_ssh__resolved_securecrt_in_chinese_garbled_display_problem__home__end_to_move_to_the_line__end_of_line__vi__vim_to_display_color_code/">【已解决】secureCRT中：中文乱码显示问题 + Home/End移动到行首/行尾 + vi/vim中显示彩色代码</link></para>
+            <para></para>
+            <para><link xl:href="http://www.crifan.com/let_securecrt_correct_chinese/">让secureCRT正确显示中文</link></para>
+        </answer>
+    </qandaentry>
+    <qandaentry xml:id="qa.securecrt_colorful_display_vi_vim">
+        <question>
+            <para>如何让SecureCRT支持vi/vim的彩色显示？</para>
+        </question>
+        <answer>
+            <para>TODO：待整理：</para>
+            <para><link xl:href="http://www.crifan.com/ubuntu_1010_installed_ssh__resolved_securecrt_in_chinese_garbled_display_problem__home__end_to_move_to_the_line__end_of_line__vi__vim_to_display_color_code/">【已解决】secureCRT中：中文乱码显示问题 + Home/End移动到行首/行尾 + vi/vim中显示彩色代码</link></para>
+            <para></para>
+            <para><link xl:href="http://www.crifan.com/order_securecrt_with_linux_server_configure_the_vim_color_display_makes_effective/">【整理】secureCRT连Linux服务器，配置vim使得色彩显示生效</link></para>
+        </answer>
+    </qandaentry>
+    <qandaentry xml:id="qa.securecrt_ssh2_home_end_work">
+        <question>
+            <para>如何让SecureCRT在SSH2连接期间的Home、End等快捷键起效果？</para>
+        </question>
+        <answer>
+            <para>TODO：待整理：</para>
+            <para><link xl:href="http://www.crifan.com/ubuntu_1010_installed_ssh__resolved_securecrt_in_chinese_garbled_display_problem__home__end_to_move_to_the_line__end_of_line__vi__vim_to_display_color_code/">【已解决】secureCRT中：中文乱码显示问题 + Home/End移动到行首/行尾 + vi/vim中显示彩色代码</link></para>
+            <para></para>
+        </answer>
+    </qandaentry>
+</qandaset>
+
+
+</chapter>
